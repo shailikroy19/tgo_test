@@ -5,7 +5,8 @@ class LoaderProvider extends ChangeNotifier {
 
   void startLoading() {
     _isLoading = true;
-    //Call whenever there is some schange in any field of change notifier.
+
+    ////Call whenever there is some schange in any field of change notifier.
     notifyListeners();
   }
 
